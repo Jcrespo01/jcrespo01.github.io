@@ -2,183 +2,285 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Javier Crespo | Portfolio & Reflective Essay</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
+  <main class="page">
 
-<main class="page">
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <a href="#top" class="brand">
+        <div class="logo">JC</div>
+        <span>Javier Crespo</span>
+      </a>
 
-<!-- HERO -->
-<section class="hero" id="top">
-  <div class="hero-copy">
-    <h1>Javier Crespo</h1>
-    <h2>Web Developer & Digital Designer</h2>
+      <div class="nav-links">
+        <a href="#top">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#essay">Essay</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-    <p>
-      This portfolio showcases my growth this semester through my strongest visual projects,
-      personal reflection, and the design lessons I developed using Photoshop and Illustrator.
-    </p>
+      <a href="#projects" class="btn">View Work ↗</a>
+    </nav>
 
-    <a href="#projects" class="btn">View My Work</a>
+    <!-- HERO / SLIDESHOW -->
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <div class="eyebrow">Portfolio & Reflective Essay</div>
+
+        <h1>
+          Designing<br>
+          <span class="gradient-text">With Purpose.</span><br>
+          Learning<br>
+          <span class="gradient-text">Through Creation.</span>
+        </h1>
+
+        <p>
+          I am Javier Crespo, a web development and design student. This portfolio shows my growth this semester through my strongest visual projects, reflection, and the design lessons I learned using Adobe Photoshop and Illustrator.
+        </p>
+
+        <div class="actions">
+          <a href="#projects" class="btn">Explore My Work ↗</a>
+          <a href="#essay" class="ghost-btn"><span class="play">▷</span> Read Reflection</a>
+        </div>
+      </div>
+
+      <div class="hero-slider" aria-label="Portfolio slideshow">
+        <div class="slide active">
+          <img src="images/cartoon-portrait.jpg" alt="Cartoon portrait created in Procreate">
+          <div class="slide-caption">Procreate Cartoon Portrait</div>
+        </div>
+
+        <div class="slide">
+          <img src="images/food-wine.jpg" alt="Food and Wine Gala Poster">
+          <div class="slide-caption">Award-Winning Gala Poster</div>
+        </div>
+
+        <div class="slide">
+          <img src="images/dreamscape.jpg" alt="Dreamscape portal design">
+          <div class="slide-caption">Dreamscape Portal</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro-section">
+      <div class="section-label">Explaining My Growth</div>
+      <h2>From experimenting to thinking like a designer</h2>
+      <p>
+        At the beginning of the semester, I was mostly focused on making designs look interesting. Now I understand that strong design needs planning, hierarchy, balance, typography, and a clear message. These projects show how I improved creatively and technically. My strongest example is my Food & Wine Gala poster because it became a special winning project and helped me see that I can create work that feels professional.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects-panel full" id="projects">
+      <div class="project-head">
+        <div>
+          <div class="section-label">Visual Examples</div>
+          <h2>Best Work From This Semester</h2>
+        </div>
+      </div>
+
+      <!-- PROJECT 1 -->
+      <article class="project-detail featured-project">
+        <div class="project-visual">
+          <img src="images/food-wine.jpg" class="clickable" alt="Food and Wine Gala Poster">
+        </div>
+
+        <div class="project-info">
+          <p class="award">🏆 Main Project / Special Winning Piece</p>
+          <h3>Northampton Community College Food & Wine Gala Poster</h3>
+          <p class="caption">Created: April 2026</p>
+          <p><strong>Software Used:</strong> Adobe Illustrator</p>
+          <p><strong>Tools & Techniques:</strong> Pen Tool, vector illustration, custom typography, gradients, layering, color harmony, composition, type hierarchy, bleed setup, and print preparation.</p>
+          <p><strong>Project Description:</strong> The objective was to design a professional event poster for Northampton Community College’s Food & Wine Gala. I created an elegant illustrated poster using wine, food, vines, and decorative movement to communicate the theme “The Art of Food.”</p>
+
+          <h4>Learning / Achievement</h4>
+          <p>
+            This project represents one of the biggest turning points for me this semester. At the beginning, I approached design more instinctively, focusing on making things look good without fully understanding structure and flow. While working on this poster, I started to think more like a designer and less like someone just experimenting. I learned how to control composition and guide the viewer’s eye using movement and organic shapes. The vines were not just decorative; they became part of the structure that connects all elements together. I also improved my use of typography by integrating it into the design instead of treating it as something separate. Another important lesson was balance. I had to manage multiple elements like the wine glass, food, and decorative lines without making the design feel crowded. This pushed me to refine spacing, layering, and hierarchy. Winning recognition for this project made me realize that I am capable of doing more than I thought, and it motivated me to keep improving and taking my work seriously.
+          </p>
+
+          <h4>Self-Reflection & Critique</h4>
+          <p>
+            <strong>Describe:</strong> The final design is a decorative, high-end event poster with wine, food, vines, and expressive typography. 
+            <strong>Analyze:</strong> The movement of the vines helps guide the eye from the top title toward the central illustration and down to the event information. 
+            <strong>Judge:</strong> I think this is my strongest piece because it feels complete and professional. Its strengths are the movement, color palette, and visual storytelling. A weakness is that the center area is busy, and some details could be simplified for stronger readability.
+          </p>
+        </div>
+      </article>
+
+      <!-- PROJECT 2 -->
+      <article class="project-detail">
+        <div class="project-visual wide">
+          <img src="images/dreamscape.jpg" class="clickable" alt="Dreamscape Portal">
+        </div>
+
+        <div class="project-info">
+          <h3>Dreamscape Portal</h3>
+          <p class="caption">Created: 2026</p>
+          <p><strong>Software Used:</strong> Adobe Photoshop</p>
+          <p><strong>Tools & Techniques:</strong> Layering, masking, blending, color adjustments, lighting effects, scale, atmosphere, and surreal composition.</p>
+          <p><strong>Project Description:</strong> The objective was to create a dreamlike digital composition. I created a surreal space scene with an astronaut floating toward a glowing portal, surrounded by clouds, flowers, stars, and a large ringed planet.</p>
+
+          <h4>Learning / Achievement</h4>
+          <p>
+            This project helped me grow because it pushed me to think about atmosphere, depth, and storytelling. I learned that Photoshop is not only about placing images together; it is about making the whole scene feel connected. The astronaut, planet, portal, clouds, and flowers all needed to feel like they belonged in the same world. I practiced using layers and blending techniques to create a softer dreamlike look. I also learned how important lighting is. If the light does not match, the design can feel fake very quickly. The glowing portal became the visual destination, so I used it to guide the viewer’s eye and give the piece a story. This project also connects to my personal style because I love space, imagination, and futuristic scenes. It helped me realize that I enjoy creating designs that feel like another world, almost like a visual escape. That is something I want to keep developing in my work.
+          </p>
+
+          <h4>Self-Reflection & Critique</h4>
+          <p>
+            <strong>Describe:</strong> A surreal space dreamscape with an astronaut, Saturn-like planet, clouds, and a glowing portal. 
+            <strong>Analyze:</strong> The composition uses light and scale to create depth and movement. 
+            <strong>Judge:</strong> The strengths are the mood, color harmony, and imaginative concept. A weakness is that some areas could be blended even more smoothly so the scene feels fully unified.
+          </p>
+        </div>
+      </article>
+
+      <!-- PROJECT 3 -->
+      <article class="project-detail">
+        <div class="project-visual">
+          <img src="images/facetrace.jpg" class="clickable" alt="Face Vector">
+        </div>
+
+        <div class="project-info">
+          <h3>Face Vector Trace</h3>
+          <p class="caption">Created: 2026</p>
+          <p><strong>Software Used:</strong> Adobe Illustrator</p>
+          <p><strong>Tools & Techniques:</strong> Image tracing, Pen Tool, shape building, strokes, fills, simplified values, line work, and vector cleanup.</p>
+          <p><strong>Project Description:</strong> The objective was to create a clean vector portrait by simplifying a face into bold shapes and lines. I created a black, white, and gray portrait with glasses, hat, facial details, and strong graphic contrast.</p>
+
+          <h4>Learning / Achievement</h4>
+          <p>
+            This project helped me understand how much control Illustrator gives a designer when working with shapes and clean lines. I learned that vector art is about simplifying what you see without losing the personality of the subject. Instead of trying to include every small detail, I had to choose the most important shapes: the hat, glasses, eyebrows, nose, mouth, and facial hair. That taught me how to observe better. I also learned that contrast can carry a design, especially when using a limited color palette. Working mostly in black, white, and gray made me focus on line quality and shape relationships instead of relying on many colors. This project improved my patience because tracing takes time and small corrections matter. I also became more confident using Illustrator to create something that feels personal and stylized. It showed me that clean design can still have character.
+          </p>
+
+          <h4>Self-Reflection & Critique</h4>
+          <p>
+            <strong>Describe:</strong> A stylized vector portrait using limited colors and bold outlines. 
+            <strong>Analyze:</strong> The strong black shapes create contrast and make the face recognizable. 
+            <strong>Judge:</strong> The strengths are the clean graphic style and personality. A weakness is that some facial areas could use more refinement or smoother curves.
+          </p>
+        </div>
+      </article>
+
+      <!-- PROJECT 4 -->
+      <article class="project-detail">
+        <div class="project-visual">
+          <img src="images/logo.jpg" class="clickable" alt="JLC Visual Art Studio logo">
+        </div>
+
+        <div class="project-info">
+          <h3>JLC Visual Art Studio Logo</h3>
+          <p class="caption">Created: 2026</p>
+          <p><strong>Software Used:</strong> Adobe Illustrator</p>
+          <p><strong>Tools & Techniques:</strong> Typography, logo layout, vector shapes, alignment, brand identity, color choice, and composition.</p>
+          <p><strong>Project Description:</strong> The objective was to create a personal logo/brand mark. I created a design for JLC Visual Art Studio that connects my initials with my creative identity as a designer.</p>
+
+          <h4>Learning / Achievement</h4>
+          <p>
+            This project helped me think about design as identity. A logo is different from a poster or a Photoshop composition because it has to communicate quickly. It needs to be simple enough to remember but strong enough to represent a brand. While working on this piece, I thought about how my initials could become part of my creative image. I learned that spacing, alignment, and typography are extremely important in logo design because small mistakes are easier to notice. I also learned that a logo has to work as a system. It should look good large, but it should also still be readable small. This project made me think more seriously about myself as a designer, not just as a student completing assignments. Creating a personal logo helped me start building a visual identity that I can use in my portfolio and future projects. It gave me a stronger sense of ownership over my work.
+          </p>
+
+          <h4>Self-Reflection & Critique</h4>
+          <p>
+            <strong>Describe:</strong> A personal logo for JLC Visual Art Studio. 
+            <strong>Analyze:</strong> The design uses typography and branding to communicate identity. 
+            <strong>Judge:</strong> The strengths are the personal meaning and brand direction. A weakness is that the logo could be tested more at different sizes and maybe refined for stronger readability.
+          </p>
+        </div>
+      </article>
+
+      <!-- PROJECT 5 -->
+      <article class="project-detail">
+        <div class="project-visual">
+          <img src="images/cartoon-portrait.jpg" class="clickable" alt="Cartoon portrait personal project">
+        </div>
+
+        <div class="project-info">
+          <h3>Cartoon Portrait (Personal Project)</h3>
+          <p class="caption">Created: 2026</p>
+          <p><strong>Software Used:</strong> Procreate (iPad) with Apple Pencil</p>
+          <p><strong>Tools & Techniques:</strong> Digital painting, cartoon illustration, color blocking, custom brushes, shadows, highlights, line work, portrait styling, and layer-based editing.</p>
+          <p><strong>Project Description:</strong> This is a personal project I created outside of class. The goal was to design a stylized cartoon version of myself using a playful and expressive digital illustration style.</p>
+
+          <h4>Learning / Achievement</h4>
+          <p>
+            Even though this was not a class assignment, it played an important role in my growth this semester. This project helped me connect my technical skills with my personal identity. Since the portrait is based on me, it felt more meaningful than a typical assignment. I explored how color, line, and exaggeration can change the mood and personality of a portrait. Using Procreate allowed me to draw more freely, almost like traditional art, while still benefiting from digital tools like layers and undo. I also improved my understanding of shadows and highlights to create depth without losing the clean cartoon look. This project helped me realize that my personal work can still be professional and valuable for my portfolio. It gave me more confidence in my style and showed me that design is not only about assignments, but also about expressing ideas and identity.
+          </p>
+
+          <h4>Self-Reflection & Critique</h4>
+          <p>
+            <strong>Describe:</strong> A colorful cartoon-style self portrait created in Procreate with bold lines and expressive features. 
+            <strong>Analyze:</strong> The use of color and exaggeration gives the portrait energy and personality. 
+            <strong>Judge:</strong> The strengths are the strong personality and visual impact. A weakness is that some details could be refined further for a more polished final look.
+          </p>
+        </div>
+      </article>
+
+      <!-- FINAL PROJECT PLACEHOLDER -->
+      <article class="project-detail coming-soon">
+        <div class="project-visual placeholder">
+          <span>Final Project Coming Soon</span>
+        </div>
+
+        <div class="project-info">
+          <h3>Final Class Project</h3>
+          <p class="caption">Coming Soon: May 2026</p>
+          <p><strong>Software Used:</strong> Adobe Photoshop / Illustrator</p>
+          <p><strong>Project Description:</strong> This space is ready for my final project once it is completed this week.</p>
+
+          <h4>Learning / Achievement</h4>
+          <p>I will add the final reflection here after completing the last class project. This section is prepared so the final portfolio can be updated quickly before submission.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ESSAY QUESTION #2 -->
+    <section class="essay-section" id="essay">
+      <div class="section-label">Essay Question #2</div>
+      <h2>Digital Artist Point of View</h2>
+
+      <p>This semester really changed how I look at design. Before this class, I was mostly focused on making things look cool or interesting. If the colors looked good and it caught attention, I thought that was enough. But now I see it’s deeper than that. Design is not just about looking good, it’s about how everything works together and what it communicates.</p>
+
+      <p>My point of view now is more intentional. I don’t just throw things on the screen anymore. I think about placement, spacing, and how the eye moves through the design. I like designs that feel modern and a little futuristic, but also clean and controlled. I don’t like when things feel random. I want everything to have a reason. One thing I started to pay attention to more is movement. Like in my Food &amp; Wine poster, the vines were not just decoration, they helped guide the viewer through the design. That’s something I didn’t really think about before.</p>
+
+      <p>Working with Illustrator and Photoshop helped me understand things in different ways. Illustrator taught me discipline. It forced me to slow down and build things the right way using shapes, lines, and clean layouts. I learned that small mistakes actually matter a lot in design. Photoshop felt more creative and open. When I worked on my dreamscape project, I started understanding lighting, blending, and how to create a mood. It showed me that design is not only structure, it’s also feeling. I think both programs together helped me balance being creative and being precise.</p>
+
+      <p>One thing that really changed is how I see design outside of class. I can’t unsee things now. When I look at a website, a poster, or even something simple like a menu, I start noticing everything. I look at the fonts, the spacing, the alignment, and whether it feels balanced or not. Sometimes I see designs that look nice at first, but then I realize something feels off. Other times I see simple designs that work really well, and I understand why. It’s like my brain is always analyzing now without me trying.</p>
+
+      <p>I also feel like I grew a lot during this semester, not just in skills but in mindset. At the beginning, I would get stuck when something didn’t look right. I didn’t always know how to fix it. But after getting feedback and making changes, I started to understand the process more. One moment that really stood out was fixing my poster after feedback. At first I thought it was fine, but after adjusting the layout, typography, and spacing, it became way better. That showed me that design is not about getting it right the first time. It’s about improving it.</p>
+
+      <p>I think one of the biggest things I learned is that less can be more. Before, I would try to fill space, but now I see that space can actually help the design breathe. I also respect typography a lot more now. Fonts are not just something you pick randomly. They really change how the design feels.</p>
+
+      <p>Overall, I feel more confident now. I still have a lot to learn, but I can see real progress. I understand design better, I think more before I create, and I pay more attention to details. This class helped me realize that I’m not just using tools, I’m starting to think like a designer. And that’s something I want to keep building on.</p>
+    </section>
+
+    <!-- FOOTER STATS -->
+    <section class="stats" id="contact">
+      <div class="stat"><div class="stat-icon">🏆</div><div><strong>1</strong><span>Winning Project</span></div></div>
+      <div class="stat"><div class="stat-icon">🎨</div><div><strong>5+</strong><span>Visual Examples</span></div></div>
+      <div class="stat"><div class="stat-icon">✍</div><div><strong>2</strong><span>Essay Questions</span></div></div>
+      <div class="stat"><div class="stat-icon">🚀</div><div><strong>∞</strong><span>Growth</span></div></div>
+    </section>
+
+  </main>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img" alt="Expanded project image">
   </div>
-</section>
 
-<!-- INTRO -->
-<section class="intro-section">
-  <h2>Explaining My Growth</h2>
-  <p>
-    At the beginning of the semester, I focused mostly on making designs look interesting.
-    Now I understand that strong design needs structure, hierarchy, balance, and purpose.
-    These projects show how I improved both creatively and technically.
-  </p>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-
-<!-- PROJECT 1 -->
-<div class="project-detail">
-  <img src="images/food-wine.jpg">
-
-  <h3>Food & Wine Gala Poster (April 2026)</h3>
-  <p><strong>Software:</strong> Adobe Illustrator</p>
-
-  <p><strong>Description:</strong>
-    A professional event poster using illustration, typography, and composition.
-  </p>
-
-  <p><strong>Learning:</strong>
-    This project changed how I think about design. I learned how to guide the viewer’s eye,
-    control composition, and balance multiple elements without making the design feel crowded.
-    It also helped me improve my typography and understand how text should work with visuals.
-  </p>
-
-  <p><strong>Reflection:</strong>
-    Strong composition and color. Some areas are slightly busy.
-  </p>
-</div>
-
-<!-- PROJECT 2 -->
-<div class="project-detail">
-  <img src="images/dreamscape.jpg">
-
-  <h3>Dreamscape Portal (2026)</h3>
-  <p><strong>Software:</strong> Adobe Photoshop</p>
-
-  <p><strong>Description:</strong>
-    A surreal composition with an astronaut and glowing portal.
-  </p>
-
-  <p><strong>Learning:</strong>
-    I learned how to create atmosphere and depth using lighting and blending.
-    This project helped me understand storytelling in design.
-  </p>
-
-  <p><strong>Reflection:</strong>
-    Strong mood and concept. Needs smoother blending.
-  </p>
-</div>
-
-<!-- PROJECT 3 -->
-<div class="project-detail">
-  <img src="images/facetrace.jpg">
-
-  <h3>Face Vector Trace (2026)</h3>
-  <p><strong>Software:</strong> Adobe Illustrator</p>
-
-  <p><strong>Description:</strong>
-    A stylized vector portrait using simplified shapes.
-  </p>
-
-  <p><strong>Learning:</strong>
-    I learned how to simplify details and focus on key shapes.
-    This improved my observation and precision.
-  </p>
-
-  <p><strong>Reflection:</strong>
-    Clean and strong. Needs smoother curves.
-  </p>
-</div>
-
-<!-- PROJECT 4 -->
-<div class="project-detail">
-  <img src="images/logo.jpg">
-
-  <h3>JLC Logo (2026)</h3>
-  <p><strong>Software:</strong> Adobe Illustrator</p>
-
-  <p><strong>Description:</strong>
-    A personal logo design representing my identity.
-  </p>
-
-  <p><strong>Learning:</strong>
-    I learned that logos must be simple, balanced, and readable at all sizes.
-  </p>
-
-  <p><strong>Reflection:</strong>
-    Good concept. Needs testing at smaller sizes.
-  </p>
-</div>
-
-<!-- PROJECT 5 (FINAL PROJECT READY) -->
-<div class="project-detail">
-  <img src="images/final-project.jpg">
-
-  <h3>Final Class Project (May 2026)</h3>
-  <p><strong>Software:</strong> Adobe Photoshop / Illustrator</p>
-
-  <p><strong>Description:</strong>
-    This project represents the final application of everything I learned this semester.
-  </p>
-
-  <p><strong>Learning:</strong>
-    This project helped me bring together composition, typography, and structure.
-    I focused more on making intentional decisions instead of guessing.
-  </p>
-
-  <p><strong>Reflection:</strong>
-    Shows my growth as a designer and my ability to think more professionally.
-  </p>
-</div>
-
-</section>
-
-<!-- ESSAY -->
-<section id="essay">
-  <h2>Digital Artist Point of View</h2>
-
-  <p>
-    This semester changed how I see design. Before, I focused on making things look good,
-    but now I understand design is about structure, balance, and communication.
-  </p>
-
-  <p>
-    Illustrator taught me precision and discipline, while Photoshop helped me explore creativity
-    and mood. Now I think more intentionally and pay attention to details like spacing and typography.
-  </p>
-
-  <p>
-    I also started noticing design everywhere in daily life, analyzing layouts, colors,
-    and structure automatically. This shows how much I’ve grown.
-  </p>
-
-  <p>
-    Overall, I feel more confident. I’m not just creating anymore — I’m thinking like a designer.
-  </p>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-</section>
-
-</main>
-
+  <!-- JAVASCRIPT -->
+  <script src="js/slideshow.js"></script>
 </body>
 </html>
