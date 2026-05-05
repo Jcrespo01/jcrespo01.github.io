@@ -539,3 +539,19 @@ h2 {
 .clickable:hover {
   transform: scale(1.02);
 }
+
+/* Porsche final magazine cover: keep portrait artwork from cropping */
+.project-visual.poster {
+  background: #050505;
+}
+
+.project-visual.poster img {
+  object-fit: contain;
+  background: #050505;
+}
+
+/* Keep the Porsche slide readable inside the hero slideshow */
+.slide img[src="images/porsche-cover.jpg"] {
+  object-fit: contain;
+  background: #050505;
+}
